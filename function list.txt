@@ -1,0 +1,49 @@
+red dot radar :::: get_SpottedLocally ::: 1324ABC
+esp radr ::: get_ActiveTeamIndex ::: (fake) == (real)
+rain ::: float 100 ::: X
+wide putin ::: float 0.9 ::: X
+firerate ::: float 60 ::: X
+no recoil ::: ApplyRecoil ::: F58C54
+no spread ::: UpdateSpread ::: F58B2C
+no aimpunch ::: ApplyAimpunch ::: F58DE8
+no flash ::: OnCharacterFlashed + SetTime (float) ::: 1336BB8 + F735F8
+no grenade damage ::: GrenadeHitCharacter ::: F91044
+fov ::: float 360 ::: X
+sniper crosshair ::: get_Crosshair [implementory gameplay base] ::: 103D0E0
+play while banned (practice) ::: get_RankedEnabled + get_RankedEnabled + SetRankedEnabled ::: D016E8 + 130458C + 108D0A0
+shoot through walls ::: RaycastWalls ::: F93084
+spoof names ::: SetKillNotification ::: 12EAFC8
+dumb bots ::: IsBehindWall ::: 1204B48
+team radar ::: get_isVisible [character model] + float 1.49999988379 ::: 1326DFC + X
+free name change ::: HasEnoughCredits ::: F40334
+
+
+True ::: 200080D2C0035FD6
+False ::: 000080D2C0035FD6
+Nop ::: 1F2003D5C0035FD6
+Radar ::: C0021836740000B5
+
+
+red = ""
+radaresp = "C0 02 00 36 74 00"
+norecoil = ""
+nospread = ""
+noaimpunch = ""
+flash1 = ""
+flash2 = ""
+nade = ""
+sniper = ""
+pwb1 = ""
+pwb2 = ""
+pwb3 = ""
+wh = ""
+feed = ""
+dumb = ""
+team = ""
+fov_address = ""
+fire_address = ""
+rain_address = ""
+true1 = "20 00 80 D2 C0 03 5F D6"
+false1 = "00 00 80 D2 C0 03 5F D6"
+nop = "1F 20 03 D5 C0 03 5F D6"
+radtrue = "C0 02 18 36 74 00"
